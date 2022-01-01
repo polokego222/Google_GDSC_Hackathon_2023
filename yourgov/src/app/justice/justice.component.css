@@ -1,0 +1,53 @@
+
+@font-face {
+    font-family: 'Roboto Bk';
+    src: URL('../assets/font/roboto-black.TTF') format('truetype');
+  }
+  
+  .circular_image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border:3px solid lightgray;
+    background-color: gray;
+    display:inline-block;
+    vertical-align:middle;
+    
+  }
+  
+  
+  .circular_image img{
+    width:100%;
+    
+  }
+
+  .circular_image:hover {
+    cursor: pointer; 
+    border:3px solid rgb(18, 143, 171);;
+  }
+
+  .cmp {
+    color:  rgb(60, 60, 60);
+  }
+
+  h1 {
+    font-family: 'Source Sans Pro','Helvetica Neue','Helvetica','Roboto','Arial',sans-serif;
+  }
+
+  .cmp:hover {
+    color:  rgb(5, 90, 109);;
+    text-decoration: underline  rgb(18, 143, 171) 3px;
+
+
+  }
+
+  
+  a, a:link, a:hover, a:active {
+  
+    text-decoration: none;
+    color: black;
+  
+  }
+  
+  

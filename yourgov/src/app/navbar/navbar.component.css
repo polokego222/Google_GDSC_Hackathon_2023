@@ -1,0 +1,51 @@
+#uiNavbar {     
+    top: 0;
+    margin:0;
+    border-bottom: 2px solid;
+    border-color: gray;
+    list-style: none;
+    width:100%;
+    z-index: 100;
+    position: fixed;
+    display: inline-block;
+    background-color: white;
+    padding: 0px;
+    
+}
+
+  
+#uiNavbar li:hover {
+    cursor: pointer;
+    filter: rgb(102, 0, 0); /* IE6-9 */
+    -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(0); /* Microsoft Edge and Firefox 35+ */
+  
+}  
+  
+#uiNavbar li { 
+    display: inline-block;
+    position: relative;
+    margin: 0px;  
+    -webkit-filter: grayscale(0.5); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(0.5); /* Microsoft Edge and Firefox 35+ */
+}
+  
+
+#uiNavbar li:active {
+    cursor: pointer;
+    filter: rgb(102, 0, 0); /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+#navMenu {  
+    float: right;
+}
+  
+#navBack { 
+    float: left;
+}
+    
+#navAccount {  
+    float: right;
+}

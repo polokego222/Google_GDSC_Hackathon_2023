@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "your-gov": {
+      "hosting": {
+        "yourgov": [
+          "your-gov"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "your-gov"
+  }
+}
